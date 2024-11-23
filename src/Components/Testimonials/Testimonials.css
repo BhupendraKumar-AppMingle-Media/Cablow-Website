@@ -1,0 +1,161 @@
+/* Testimonial Slider Styling */
+
+
+.custom-container{
+  background-color:  #e4ffe3;
+}
+
+
+
+
+
+.testimonial-item {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimonial-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid #f5930b;
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  color: #009d51;
+  margin-bottom: 20px;
+}
+
+
+
+
+.client-name {
+  font-weight: bold;
+}
+
+.client-position {
+  color: #009d51;
+}
+
+/* Customizing the carousel control buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(
+    255,
+    207,
+    79
+  ); /* Set the button background color to yellow */
+  border-radius: 50%; /* Make them circular */
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  /* top: 0; */
+  bottom: 0;
+}
+
+/* Optional: Hover effect for buttons */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgb(255, 207, 79); /* Slightly darker yellow on hover */
+}
+
+
+.rounded-circle{
+  height: 150px;
+  height: 150px;
+}
+
+
+
+
+
+
+@media(max-width:786px){
+  
+  .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+
+}
+
+
+
+
+
+.tariff-Testimonials{
+  margin-top: 20px;
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+.tariff-top-Testimonials{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* justify-items: center; */
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+
+.tariff-top h4{
+  color: rgb(255,198,26);
+  font-weight: 700;
+
+}
+
+
+
+.tariff-top h2{
+color: black;
+font-weight: 700;
+}
+
+/* /////////////////////////////////// */
+
+
+
+#rider-say{
+  color: rgb(255, 198, 26);;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

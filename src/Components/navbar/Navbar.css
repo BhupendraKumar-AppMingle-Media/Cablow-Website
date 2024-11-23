@@ -1,0 +1,121 @@
+/* Basic Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; 
+  background-color: #e4ffe3;
+  font-weight: 800;
+  font-size: x-large;
+  /* height: 100px; */
+  box-sizing: border-box;
+  /* padding-right: 20px; */
+
+  box-shadow: 0 5px 7px #daeba3;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+
+.logo img {
+  width: 150px;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 80px; /* Set max height to fit within navbar */
+  object-fit: contain; /* Ensure the image scales properly within its box */
+  
+}
+
+
+
+
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar-menu.active {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* background-color: #fff; */
+  padding: 20px;
+  z-index: 1000;
+}
+
+.navbar-item {
+  color: #009d51;
+  text-decoration: none;
+  /* padding: 10px; */
+  padding: 2px;
+}
+
+.navbar-item:hover {
+  color: #ffa500;
+}
+
+/* Close Icon */
+.close-icon {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  cursor: pointer;
+}
+
+/* Toggle Button Styling */
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  margin: 3px 0;
+}
+
+/* Show the toggle button on smaller screens */
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+    gap: 0px;
+    position: sticky;
+  }
+
+  .navbar-menu.active {
+    display: flex;
+  }
+
+  .navbar-toggle {
+    display: flex;
+  }
+
+ 
+
+  .logo img{
+    width: 120px;
+  }
+  .navbar-item{
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  /* .navbar{
+ 
+  } */
+
+}

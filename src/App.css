@@ -1,0 +1,143 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color:  #e4ffe3;
+a{
+  text-decoration: none;
+}
+ 
+ p {
+  font-size: 1.2em; /* Adjust based on preference */
+  /* line-height: 1.6; */
+  word-wrap: break-word;
+}
+
+h2,h3,h1{
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+   p {
+    font-size: 1em;
+    /* padding: 15px; */
+  }
+}
+
+@media (max-width: 576px) {
+   p {
+    font-size: 1em;
+    /* padding: 10px; */
+  }
+
+  /* h2,h3,h1{
+    font-weight: 900;
+  } */
+}
+
+
+
+}
+
+
+
+.home {
+  /* border: 8px solid rgb(218, 12, 12); */
+  max-width: 100%;
+  height: 150px;
+  /* height: 100%; */
+  /* height: 400px;   */
+  background-color: black;
+  margin-bottom: 30px;
+  padding-bottom:20px;
+}
+
+/* ////////////////////////////////////////////////// */
+
+.yellow_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 100%;
+  height: auto;
+  background-color: rgb(255, 198, 26);
+}
+
+.car img {
+
+  max-width: 100%;
+  height: auto;
+  background-color: rgb(255, 198, 26);
+}
+
+@keyframes slideIn {
+  0% {
+    bottom: -100%; /* Start off screen (from background) */
+    opacity: 0; /* Hidden at the start */
+  }
+  100% {
+    bottom: 0; /* Ends at the bottom of the container */
+    opacity: 1; /* Fully visible */
+  }
+}
+/* Add this to your CSS file, e.g., App.css */
+.icon-black {
+  color: #009d51;
+}
+
+
+.yellow-buttom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  padding-bottom: 40px;
+  border: none;
+
+  background-color: rgb(255, 198, 26);
+
+}
+
+
+
+.button {
+
+  color: aliceblue;
+
+  background-color: rgb(159, 52, 10);
+  font-size: 16px;
+  padding: 15px;
+  width: auto;
+  border-radius: 25px;
+  font-weight: 800;
+  border: none;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+
+  background-color: black;
+  color: rgb(255, 198, 26);
+  transform: scale(1.05); /* Scale the button slightly */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+
+}
+
+/* /////////////////////////////////////////////// */
+
+
+.custom-car-logo{
+  background-color: rgb(255, 198, 26);
+}
+
+.icons-cars{
+  background-color: rgb(255, 198, 26);
+}
+
+
+

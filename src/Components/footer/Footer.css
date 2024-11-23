@@ -1,0 +1,144 @@
+
+
+.footer {
+  background-color: black;
+  color: #009d51 ;
+  /* padding: 40px 20px; */
+  padding-top: 18px;
+  width: 100%;
+  /* max-width: 1200px; */
+}
+
+
+.footer{
+  background-color: black;
+  color: #009d51;
+}
+
+.custom-car-logo svg{
+  background-color: rgb(255, 198, 26);
+}
+
+.container {
+  
+  margin: 0 auto;
+  /* background-color: black; */
+}
+.explore-more {
+  background-color: black;
+}
+
+.explore{
+  background-color: black;
+}
+.about-us{
+  background-color: black;
+}
+.contact-us{
+  background-color: black;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0px;
+  background-color: black;
+}
+
+.footer h2 {
+  color: rgb(255, 198, 26);
+  font-weight: 700;
+  margin-bottom: 15px;
+  background-color: black;
+}
+
+.footer p, .footer li {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: black;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 10px;
+  background-color: black;
+}
+
+/* .copyright p{
+  
+} */
+
+.copyright strong {
+  color: rgb(255, 198, 26);
+  background-color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-content > div {
+    width: 100%;
+    /* margin-bottom: 30px; */
+    margin-bottom: 0px;
+  }
+
+  /* .explore-more {
+    display: none;
+  } */
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .footer-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .footer-content > div {
+    width: calc(50% - 20px);
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-content > div {
+    width: calc(25% - 20px);
+  }
+
+  .explore-more {
+    display: block;
+  }
+}
+
+
+.explore a{
+  background-color: black;
+  color: #009d51;
+}
+.explore-more a{
+  background-color: black;
+  color: #009d51;
+}
+
+/* .copyright{
+  background-color: black;
+} */
+
+
+#footer-color-green{
+  color: rgb(255, 198, 26);
+}

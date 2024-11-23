@@ -1,0 +1,148 @@
+.img-div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100vw;
+    /* height: 600px; */
+    height: auto;
+    /* background-image: url(../Assets/background.png); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center horizontally */
+    padding: 40px;
+
+
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), 
+    url('../../Assets/background.png');
+     background-size: cover;
+
+     /* background-color: transparent; */
+    
+  }
+  
+  .DownloadApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    background-color: transparent;
+  }
+  
+  .DownloadApp-top {
+    color: aliceblue;
+    text-align: center; /* Ensure the text is centered */
+    background-color: transparent;
+  
+  }
+
+  .DownloadApp-top h3 {
+    background-color: transparent;
+  }
+  
+  .DownloadApp-top h1 {
+    background-color: transparent;
+  }
+  
+  .DownloadApp-buttom {
+    display: flex;
+    align-items: center; /* Center horizontally */
+    background-color: transparent;
+  }
+  
+  .DownloadApp-details {
+    text-align: center; /* Center text inside details */
+    margin-bottom: 20px; /* Add space between details and the image */
+
+    background-color: transparent;
+
+}
+
+
+
+
+
+
+.DownloadApp-details-total{
+  
+  background-color: transparent;
+}
+  
+  .DownloadApp-img img {
+    margin: 20px;
+    width: 300px; /* Adjust image size if needed */
+    border-radius: 50px;
+
+    background-color: transparent;
+  }
+  
+  .DownloadApp-details-total{
+    display: flex;
+    background-color: transparent;
+  }
+
+
+  .DownloadApp-details p{
+  color: #009d50;
+  font-weight: 500;
+  background-color: transparent;
+  }
+
+
+  .DownloadApp-details h3{
+  color: rgb(255,207,83);
+  }
+
+  .DownloadApp-top h2{
+    
+    color: rgb(255,207,83);
+    background-color: transparent;
+
+  }
+
+  .DownloadApp-top h1{
+    background-color: transparent;
+  }
+
+
+  .DownloadApp-img img{
+    max-width: 100%;
+  height: auto;
+  background-color: transparent;
+  }
+
+
+ @media(max-width:1500px){
+
+  .DownloadApp-details-total{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+  }
+ }
+  
+
+ .DownloadApp h1{
+  /* color: white !important; */
+  color: #009d51;
+ }
+
+
+.custom-class-color  {
+  background-color: transparent;
+}
+
+
+.DownloadApp-details-container ,p{
+  background-color: transparent; 
+}
+
+.DownloadApp-details-container h3{
+  background-color: transparent;
+}
+
+
+.earn-color ,h3{
+  background-color: transparent;
+}
+

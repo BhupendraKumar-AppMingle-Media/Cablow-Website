@@ -1,0 +1,79 @@
+/* Remove card border and add hover effect */
+.card-hover {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Custom card hover effects */
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #000; /* 1px solid border with black color */
+  border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.custom-card:hover {
+  transform: translateY(-10px); /* Slightly move the card upwards */
+  box-shadow: 0 10px 20px rgba(255, 207, 83, 0.3); /* Add shadow on hover */
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+  padding: 10px;
+  margin: 3px;
+  border: none; /* Remove default border */
+  width: 100%; /* Make card take full width */
+  max-width: 300px; /* Set a max width for larger screens */
+  height: auto; /* Auto height for flexibility */
+  background-color:  #e4ffe3;
+}
+
+.card img {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+#our-services{
+  color: rgb(255, 198, 26);
+}
+
+.tariff-card{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.tariff-top-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+
+
+#our-services-para1{
+  color: black;
+}
+
+#our-services-para2{
+  color: black;
+}
+
+#our-services-para3{
+  color: black;
+}
+
+#our-services-para4{
+  color: black;
+}
+
+.card-text{
+  color: #009d51;
+}

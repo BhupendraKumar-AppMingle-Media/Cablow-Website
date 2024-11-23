@@ -1,0 +1,94 @@
+/*  */
+
+
+.container{
+    width: 100%;
+    /* height: 100vh; */
+
+    /* margin-top: 40px; */
+    background-color:  #e4ffe3;
+}
+
+
+.mt-custom {
+    margin-top: 18rem; /* or any other value you want */
+  }
+
+
+  .contact-custom h2 {
+    font-weight: 900;
+    /* color:rgb(255, 207, 79); */
+
+  }
+  
+  .contact-custom  {
+    font-weight: 900;
+    color:black;
+
+  }
+
+
+  .company-details{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:#009d50;
+  }
+  .company-details h1{
+    /* font-size: 1.5rem; */
+    font-weight: 900;
+    /* color:rgb(255, 207, 79); */
+    color: black;
+  }
+
+
+
+
+  .btn-custom{
+    font-size: 17px;
+    font-weight: 900;
+    padding: 13px;
+    color: black;
+    background-color: rgb(255, 207, 79);
+    
+  }
+
+  .btn-custom:hover{
+    color: black;
+
+    background-color: #009d50;
+
+  }
+  
+  .btn-custom1{
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: #009d50;
+    padding: 13px;
+
+
+  }
+
+  .btn-custom1:hover{
+    background-color: rgb(255, 207, 79);
+  }
+  
+
+
+
+.img-fluid{
+    width: 150px;
+    height: 150px;
+}
+
+.form-control{
+  background-color:  #e4ffe3;
+}
+
+
+.contactus-form-label label{
+  color: #009d51;
+}
+
+
+  

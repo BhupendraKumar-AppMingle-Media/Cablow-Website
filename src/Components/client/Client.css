@@ -1,0 +1,105 @@
+.client1 {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 198, 26);
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.image-logo-top{
+  background-color: rgb(255, 198, 26);
+}
+.image-logo-client div{
+  background-color: rgb(255, 198, 26);
+}
+
+.top {
+  /* margin-right: auto; */
+  /* background-color: rgb(255, 198, 26); */
+  margin-right: 510px;
+  text-align: center; /* Center-align the text for smaller screens */
+}
+.top-below{
+  background-color: rgb(255, 198, 26);
+}
+
+.client-contain{
+  background-color: rgb(255, 198, 26);
+}
+
+.top h2 {
+  color: #009d51;
+  font-weight: 700;
+  font-size: 2rem; /* Adjust font size for better responsiveness */
+  background-color: rgb(255, 198, 26);
+}
+
+.top h3 {
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem; /* Adjust font size for better responsiveness */
+  background-color: rgb(255, 198, 26);}
+
+.image-logo-client {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for images on smaller screens */
+  justify-content: center; /* Center the images */
+  gap: 20px; /* Add some space between images */
+  margin-top: 20px;
+  background-color: rgb(255, 198, 26);}
+
+.image-logo-client img {
+  max-width: 150px; /* Limit the maximum width of images */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px;
+  background-color: rgb(255, 198, 26);}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .client1 {
+      flex-direction: column; /* Stack the content vertically on smaller screens */
+      text-align: center;
+
+
+      margin-right: auto;
+  }
+
+  .top {
+      margin-right: 0; /* Remove the margin on smaller screens */
+      margin-bottom: 20px; /* Add some spacing between sections */
+  }
+
+  .image-logo-client img {
+      max-width: 100px; /* Reduce image size on smaller screens */
+  }
+
+  .top h2 {
+      font-size: 1.75rem; /* Adjust heading size */
+  }
+
+  .top h3 {
+      font-size: 1.25rem; /* Adjust subheading size */
+  }
+}
+
+/* Media query for extra-small screens (e.g., very small mobile devices) */
+@media (max-width: 480px) {
+  .image-logo-client img {
+      max-width: 80px; /* Further reduce image size on very small screens */
+  }
+
+  .top h2 {
+      font-size: 1.5rem; /* Adjust heading size */
+  }
+
+  .top h3 {
+      font-size: 1rem; /* Adjust subheading size */
+  }
+
+  .client1{
+    margin-right: auto;
+  }
+}

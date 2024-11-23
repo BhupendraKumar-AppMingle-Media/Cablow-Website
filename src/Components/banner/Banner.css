@@ -1,0 +1,148 @@
+/* Styling for the banner */
+.banner {
+  height: 100vh; /* Full viewport height for the banner */
+  /* color: #009d51; */
+  
+
+  
+}
+
+.text-light {
+  color: #009d51;
+
+}
+
+/* Centering content vertically and horizontally */
+.centered-content {
+  width: 100%;
+  max-width: 500px; /* Adjust the maximum width of the content */
+}
+
+.input-section {
+  background-color:  #e4ffe3;
+  padding: 53px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 36px;
+}
+
+.input-section .form-control, .input-section .form-select {
+  margin-bottom: 15px;
+   background-color:  #e4ffe3;
+}
+
+.input-section .btn {
+  padding: 10px;
+}
+
+.custom-color1 h1{
+  color: #009d51;
+}
+
+.banner .custom-color{
+  color: #009d51;
+}
+
+
+.banner {
+  height: 80vh; /* Set height to adjust the banner */
+}
+
+.text-light {
+  color: white;
+}
+
+.input-section {
+  /* background-color:  #e4ffe3; */
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* .custom-color1{
+  color: yellow;
+} */
+
+.custom-color{
+  color: #009d51;
+}
+
+
+
+
+.form-main{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+.form-main {
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  background-color:  #e4ffe3;
+
+  margin-bottom: 10px;
+}
+
+.form-main:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(251, 211, 12, 0.947);
+}
+
+
+.custum-banner h1{
+  margin-top: 10px;
+}
+
+.custom-attach{
+  background-color: transparent;
+}
+.custom-attach h1{
+  background-color: transparent;
+  margin-bottom: 33px;
+}
+.custom-attach span{
+  background-color: transparent;
+}
+
+
+
+/* button */
+
+.button-banner-home {
+
+  color: aliceblue;
+
+  background-color: rgb(159, 52, 10);
+  font-size: 16px;
+  padding: 17px;
+  width: auto;
+  border-radius: 10px;
+  font-weight: 800;
+  border: none;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-banner-home:hover {
+
+  background-color: black;
+  color: rgb(255, 198, 26);
+  transform: scale(1.05); /* Scale the button slightly */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+
+}
+
+/* animation on vehicle */
+
+
+@media(max-width:400px){
+  .form-main{
+    padding: 0px;
+  }
+}
+

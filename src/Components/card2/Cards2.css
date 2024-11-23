@@ -1,0 +1,141 @@
+/* Remove card border and add hover effect */
+.card-hover {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 207, 83, 0.3); /* Add shadow on hover */
+  }
+  
+  
+
+  .card-img-top{
+  
+   height: 40px;
+   width: 40px;
+
+
+  }
+
+
+
+
+
+
+/* triff se */
+
+.cards{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+
+
+
+  border: 1px solid black;
+  
+}
+
+
+.card{
+  display: flex;
+  /* padding: 10px; */
+  padding: 7px;
+
+  margin: 3px;
+
+  border: 1px solid black;
+  width: 260px;
+  height: 340px;
+
+}
+
+.card img{
+  width: 200px;
+  /* height: 120px; */
+
+  /* height: 170px;
+  line-height: 170px; */
+
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+  /* responsive */
+
+
+
+/* Responsive image size */
+.card-img-top {
+  max-width: 100%; /* Ensure image scales down properly */
+  height: auto;    /* Maintain aspect ratio */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 60px; /* Increase image size for smaller screens */
+    width: 60px;
+  }
+
+  .card-body {
+    padding: 1rem; /* Adjust card body padding */
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 80px; /* Further increase image size for very small screens */
+    width: 80px;
+  }
+
+  .card-title {
+    font-size: 1.25rem; /* Adjust title size */
+  }
+
+  .card-text {
+    font-size: 1rem; /* Adjust text size */
+  }
+}
+
+
+
+
+
+.tariff-cards{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.tariff-top-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+
+#one-app {
+  color: rgb(255, 198, 26);
+}
+
+
+#cards-para1{
+  color: black;
+}
+
+
+#cards-para2{
+  color: black;
+  
+}
+
